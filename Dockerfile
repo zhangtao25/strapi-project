@@ -7,6 +7,6 @@ COPY . .
 RUN npm i pnpm -g
 RUN pnpm i
 
-EXPOSE 8080
+EXPOSE 1337
 
 CMD ["npm","start" ]
